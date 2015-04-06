@@ -13,6 +13,7 @@ angular
   .module('compLibApp', [
     'ngRoute',
     'ngResource',
+    'tmp-components'
   ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider

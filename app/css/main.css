@@ -9,6 +9,27 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "jubilat", "Rockwell", serif;
 }
 
+/* line 2, ../scss/components/layout/_layout.scss */
+.main-container {
+  max-width: 1200px;
+}
+
+/* line 6, ../scss/components/layout/_layout.scss */
+.main-nav {
+  float: left;
+  width: 30%;
+  margin-right: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 15, ../scss/components/layout/_layout.scss */
+.vignette-column {
+  width: 60%;
+  float: right;
+}
+
 /* line 1, ../scss/components/base/_base.scss */
 section {
   margin: 80px 0;
@@ -26,9 +47,10 @@ h1 {
   font-size: 2.4414375rem;
   line-height: 42px;
   line-height: 2.625rem;
+  font-weight: 300;
 }
 
-/* line 14, ../scss/components/base/_base.scss */
+/* line 15, ../scss/components/base/_base.scss */
 h2 {
   font-size: 31px;
   font-size: 1.953125rem;
@@ -36,7 +58,7 @@ h2 {
   line-height: 2.25rem;
 }
 
-/* line 18, ../scss/components/base/_base.scss */
+/* line 19, ../scss/components/base/_base.scss */
 h3 {
   font-size: 25px;
   font-size: 1.5625rem;
@@ -44,7 +66,7 @@ h3 {
   line-height: 1.875rem;
 }
 
-/* line 22, ../scss/components/base/_base.scss */
+/* line 23, ../scss/components/base/_base.scss */
 h4 {
   font-size: 20px;
   font-size: 1.25rem;
@@ -52,7 +74,7 @@ h4 {
   line-height: 1.5rem;
 }
 
-/* line 26, ../scss/components/base/_base.scss */
+/* line 27, ../scss/components/base/_base.scss */
 h5 {
   font-size: 13px;
   font-size: 0.8rem;
@@ -60,7 +82,7 @@ h5 {
   line-height: 1.125rem;
 }
 
-/* line 30, ../scss/components/base/_base.scss */
+/* line 31, ../scss/components/base/_base.scss */
 h6 {
   font-size: 10px;
   font-size: 0.64rem;
@@ -68,7 +90,7 @@ h6 {
   line-height: 0.75rem;
 }
 
-/* line 35, ../scss/components/base/_base.scss */
+/* line 36, ../scss/components/base/_base.scss */
 body {
   font-size: 16px;
   font-size: 1rem;
