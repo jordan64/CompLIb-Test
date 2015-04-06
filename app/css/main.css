@@ -4,6 +4,21 @@
 /*==========  No styles should be written in this file, ==========*/
 /*==========  this is for imports only  ==========================*/
 /*==========  import partial sass component files  ==========*/
+/* line 27, ../scss/components/utilities/_placeholders.scss */
+.cancel.buttons, .confirm.buttons, .info.buttons, .disabled.buttons {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  min-width: 100px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  outline: none;
+  cursor: pointer;
+  transition: all .5s;
+}
+
 /* line 43, ../scss/components/utilities/_placeholders.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "jubilat", "Rockwell", serif;
@@ -96,6 +111,123 @@ body {
   font-size: 1rem;
   line-height: 24px;
   line-height: 1.5rem;
+}
+
+/* line 49, ../scss/components/utilities/_mixins.scss */
+.cancel.buttons {
+  background: #FFE3DB;
+  color: #ff440f;
+}
+/* line 52, ../scss/components/utilities/_mixins.scss */
+.cancel.buttons:before {
+  content: "cancel";
+}
+
+/* line 49, ../scss/components/utilities/_mixins.scss */
+.confirm.buttons {
+  background: #DEF4E5;
+  color: #45c16c;
+}
+/* line 52, ../scss/components/utilities/_mixins.scss */
+.confirm.buttons:before {
+  content: "confirm";
+}
+
+/* line 49, ../scss/components/utilities/_mixins.scss */
+.info.buttons {
+  background: #D6EEF5;
+  color: #32aacd;
+}
+/* line 52, ../scss/components/utilities/_mixins.scss */
+.info.buttons:before {
+  content: "info";
+}
+
+/* line 49, ../scss/components/utilities/_mixins.scss */
+.disabled.buttons {
+  background: #EAEBEC;
+  color: #7f858b;
+  cursor: not-allowed;
+}
+/* line 52, ../scss/components/utilities/_mixins.scss */
+.disabled.buttons:before {
+  content: "disabled";
+}
+/* line 57, ../scss/components/utilities/_mixins.scss */
+.disabled.buttons:hover {
+  border: 1px solid #ffffff;
+}
+/* line 60, ../scss/components/utilities/_mixins.scss */
+.disabled.buttons:active {
+  background: #EAEBEC;
+  color: #7f858b;
+}
+
+/* line 92, ../scss/components/utilities/_mixins.scss */
+.cancel:hover {
+  border: 1px solid #ff440f;
+}
+/* line 95, ../scss/components/utilities/_mixins.scss */
+.cancel:active {
+  background: #ff6c42;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+/* line 92, ../scss/components/utilities/_mixins.scss */
+.confirm:hover {
+  border: 1px solid #45c16c;
+}
+/* line 95, ../scss/components/utilities/_mixins.scss */
+.confirm:active {
+  background: #6bce8b;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+/* line 92, ../scss/components/utilities/_mixins.scss */
+.info:hover {
+  border: 1px solid #32aacd;
+}
+/* line 95, ../scss/components/utilities/_mixins.scss */
+.info:active {
+  background: #5bbbd7;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+/* line 92, ../scss/components/utilities/_mixins.scss */
+.disabled:hover {
+  border: 1px solid #7f858b;
+}
+/* line 95, ../scss/components/utilities/_mixins.scss */
+.disabled:active {
+  background: #9a9ea3;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+/* line 5, ../scss/_custom.scss */
+.vignette-wrapper {
+  overflow: hidden;
+  position: relative;
+  min-height: 300px;
+}
+/* line 10, ../scss/_custom.scss */
+.vignette-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 16, ../scss/_custom.scss */
+.vignette-view-reveal {
+  float: left;
+  width: 100px;
+}
+/* line 21, ../scss/_custom.scss */
+.vignette-image {
+  float: left;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

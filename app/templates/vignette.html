@@ -1,5 +1,12 @@
-<article class="vignette-view" ng-repeat="vignette in vignettes">
-  <h1>{{vignette.name}}</h1>
-  <img src='//placehold.it/300x200/013e89/FFFFFF.png'/>
-  <p class="vignette-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptas odio nesciunt quis, amet nisi labore aliquam in quaerat nam sint veniam rerum? Quia a fugit, totam odit alias perferendis.</p>
-</article>
+
+  <article class="vignette-view" ng-repeat="vignette in vignettes">
+    <div class="vignette-wrapper">
+      <div class="vignette-inner">
+        <h1>{{vignette.name}}</h1>
+        <img class="vignette-image" src='//placehold.it/300x200/013e89/FFFFFF.png'/>
+        <p class="vignette-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptas odio nesciunt quis, amet nisi labore aliquam in quaerat nam sint veniam rerum? Quia a fugit, totam odit alias perferendis.</p>
+        <button class="confirm buttons"></button>
+        <div class="vignette-view-reveal"></div>
+      </div>
+    </div>
+  </article>

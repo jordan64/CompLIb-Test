@@ -1,1 +1,25 @@
 
+@include custom-buttons(map-get($palettes, buttons));
+
+.vignette {
+  &-wrapper {
+    overflow: hidden;
+    position: relative;
+    min-height: 300px;
+  }
+  &-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &-view {
+    &-reveal {
+      float: left;
+      width: 100px;
+    }
+  }
+  &-image {
+    float: left;
+    margin-right: 20px;
+  }
+}
