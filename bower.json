@@ -2,10 +2,10 @@
   "name": "package",
   "version": "0.0.0",
   "dependencies": {
-  	"meyer-reset": "*",
+    "meyer-reset": "*",
     "breakpoint-sass": "~2.5.0",
     "susy": "~2.1.3",
-    "font-awesome": "~4.2.0"
+    "font-awesome": "~4.2.0",
+    "vertical-rhythms-without-compass": "~1.0.1"
   }
 }
-
