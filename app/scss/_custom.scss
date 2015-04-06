@@ -14,10 +14,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 136%;
+    width: 145%;
     transition: all 0.3s;
     &:hover {
-      left: -194px;
+      left: -310px;
     }
   }
   &-content {
@@ -31,9 +31,10 @@
   &-view {
     &-reveal {
       float: right;
-      width: 250px;
-      height: 350px;
+      width: 29%;
+      height: 321px;
       background: aliceblue;
+      padding: 10px;
     }
   }
   &-image {
