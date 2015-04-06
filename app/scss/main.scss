@@ -1,0 +1,26 @@
+
+
+/*========================================================
+=            Main style sheet for application            =
+========================================================*/
+
+/*==========  No styles should be written in this file, ==========*/
+/*==========  this is for imports only  ==========================*/
+
+
+// bower:scss
+
+// endbower
+
+
+/*==========  import partial sass component files  ==========*/
+
+
+@import 'components/base/config',
+        'components/base/colors',
+        'components/base/typography',
+        'components/utilities/placeholders',
+        'components/utilities/mixins',
+        'components/utilities/functions',
+        'components/layout/layout',
+        'components/base/base';

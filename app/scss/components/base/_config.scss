@@ -1,0 +1,18 @@
+// ========
+// Define breakpoints for responsive design
+// ========
+
+$desktop: 1200px;
+$tablet: 768px;
+$mobile: 480px;
+
+// ========
+// Define map for Susy grid
+// ========
+
+$susy: (
+	columns: 12,
+	container: 1600px,
+	global-box-sizing: border-box,
+	use-custom: (rem: true)
+	);

@@ -1,0 +1,51 @@
+
+
+// ========
+// Define colors for making color maps
+// ========
+
+$white: #ffffff;
+$black: #000000;
+$mint-green: #DEF4E5;
+$lilac: #DCE0F2;
+$sea-green: #DCF0EF;
+$pale-orange: #FFE3DB;
+$latte-foam: #F8EDD0;
+$light-gray: #EAEBEC;
+$cucumber: #C5E2CE;
+$powder-blue: #D6EEF5;
+
+// ========
+// Define background color for application
+// ========
+
+$app-background: $white;
+
+// ========
+// Application color palettes
+// ========
+
+$palettes: (
+	main: (
+		mint-green: $mint-green,
+		lilac: $lilac,
+		sea-green: $sea-green,
+		pale-orange: $pale-orange,
+		latte-foam: $latte-foam,
+		light-gray: $light-gray,
+		cucumber: $cucumber,
+		powder-blue: $powder-blue
+		),
+	buttons: (
+		cancel: $pale-orange,
+		confirm: $mint-green,
+		info: $powder-blue,
+		disabled: $light-gray
+		),
+	alerts: (
+		error: $pale-orange,
+		warning: $latte-foam,
+		success: $mint-green,
+		message: $powder-blue
+		)
+	);
