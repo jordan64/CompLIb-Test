@@ -2,31 +2,49 @@ angular.module('compLibApp')
   .controller('MainController', function($scope) {
     $scope.vignettes = [
       {
-        name: 'Finance'
+        name: 'Finance',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Finance2'
+        name: 'Finance2',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Finance3'
+        name: 'Finance3',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Economics'
+        name: 'Economics',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Business Leadership'
+        name: 'Business Leadership',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Business Devlopment'
+        name: 'Business Devlopment',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Business Ethics'
+        name: 'Business Ethics',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Business Ethics2'
+        name: 'Business Ethics2',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
       {
-        name: 'Business Ethics3'
+        name: 'Business Ethics3',
+        image: '//placehold.it/720x350/013e89/FFFFFF.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.'
       },
     ]
   });

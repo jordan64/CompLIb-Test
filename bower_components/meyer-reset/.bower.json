@@ -2,6 +2,7 @@
   "name": "meyer-reset",
   "description": "Eric Meyer CSS reset in Sass",
   "homepage": "https://github.com/adamstac/meyer-reset",
+  "main": "stylesheets/_meyer-reset.scss",
   "_release": "3c4864c9c0",
   "_resolution": {
     "type": "branch",

@@ -23,18 +23,17 @@
   &-content {
     float: left;
     width: 65%;
-    padding: 20px;
   }
   &-description {
-
+    margin: 20px 0;
   }
   &-view {
     &-reveal {
       float: right;
       width: 29%;
       height: 321px;
-      background: aliceblue;
-      padding: 10px;
+      background: $powder-blue;
+      padding: 20px;
     }
   }
   &-image {

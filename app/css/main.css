@@ -3,6 +3,54 @@
 ========================================================*/
 /*==========  No styles should be written in this file, ==========*/
 /*==========  this is for imports only  ==========================*/
+/* line 6, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 16, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 19, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 25, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 35, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 40, ../../bower_components/meyer-reset/stylesheets/_meyer-reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 /*==========  import partial sass component files  ==========*/
 /* line 27, ../scss/components/utilities/_placeholders.scss */
 .cancel.buttons, .confirm.buttons, .info.buttons, .disabled.buttons {
@@ -34,12 +82,11 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   width: 30%;
   margin-right: 10%;
-  position: fixed;
   top: 0;
   left: 0;
 }
 
-/* line 15, ../scss/components/layout/_layout.scss */
+/* line 14, ../scss/components/layout/_layout.scss */
 .vignette-column {
   width: 60%;
   float: right;
@@ -233,17 +280,20 @@ body {
 .vignette-content {
   float: left;
   width: 65%;
-  padding: 20px;
 }
-/* line 32, ../scss/_custom.scss */
+/* line 27, ../scss/_custom.scss */
+.vignette-description {
+  margin: 20px 0;
+}
+/* line 31, ../scss/_custom.scss */
 .vignette-view-reveal {
   float: right;
   width: 29%;
   height: 321px;
-  background: aliceblue;
-  padding: 10px;
+  background: #D6EEF5;
+  padding: 20px;
 }
-/* line 40, ../scss/_custom.scss */
+/* line 39, ../scss/_custom.scss */
 .vignette-image {
   float: left;
   margin-right: 20px;
