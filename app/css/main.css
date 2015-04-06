@@ -222,12 +222,12 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 136%;
+  width: 145%;
   transition: all 0.3s;
 }
 /* line 19, ../scss/_custom.scss */
 .vignette-inner:hover {
-  left: -194px;
+  left: -310px;
 }
 /* line 23, ../scss/_custom.scss */
 .vignette-content {
@@ -238,11 +238,12 @@ body {
 /* line 32, ../scss/_custom.scss */
 .vignette-view-reveal {
   float: right;
-  width: 250px;
-  height: 350px;
+  width: 29%;
+  height: 321px;
   background: aliceblue;
+  padding: 10px;
 }
-/* line 39, ../scss/_custom.scss */
+/* line 40, ../scss/_custom.scss */
 .vignette-image {
   float: left;
   margin-right: 20px;
