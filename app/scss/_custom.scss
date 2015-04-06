@@ -6,16 +6,34 @@
     overflow: hidden;
     position: relative;
     min-height: 300px;
+    max-width: 700px;
+    margin-bottom: 20px;
+    @include shadow-box();
   }
   &-inner {
     position: absolute;
     top: 0;
     left: 0;
+    width: 136%;
+    transition: all 0.3s;
+    &:hover {
+      left: -194px;
+    }
+  }
+  &-content {
+    float: left;
+    width: 65%;
+    padding: 20px;
+  }
+  &-description {
+
   }
   &-view {
     &-reveal {
-      float: left;
-      width: 100px;
+      float: right;
+      width: 250px;
+      height: 350px;
+      background: aliceblue;
     }
   }
   &-image {

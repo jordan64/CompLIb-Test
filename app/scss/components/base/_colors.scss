@@ -26,6 +26,17 @@ $app-background: $white;
 // ========
 
 $palettes: (
+	grayscale: (
+		xx-light: lighten($black, 90%),
+		x-light: lighten($black, 80%),
+		light: lighten($black, 70%),
+		lt-base: lighten($black, 60%),
+		base: lighten($black, 50%),
+		dk-base: lighten($black, 40%),
+		dark: lighten($black, 30%),
+		x-dark: lighten($black, 20%),
+		xx-dark: lighten($black, 10%)
+	),
 	main: (
 		mint-green: $mint-green,
 		lilac: $lilac,

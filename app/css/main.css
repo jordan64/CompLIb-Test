@@ -212,19 +212,37 @@ body {
   overflow: hidden;
   position: relative;
   min-height: 300px;
+  max-width: 700px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(51, 51, 51, 0.2);
 }
-/* line 10, ../scss/_custom.scss */
+/* line 13, ../scss/_custom.scss */
 .vignette-inner {
   position: absolute;
   top: 0;
   left: 0;
+  width: 136%;
+  transition: all 0.3s;
 }
-/* line 16, ../scss/_custom.scss */
-.vignette-view-reveal {
+/* line 19, ../scss/_custom.scss */
+.vignette-inner:hover {
+  left: -194px;
+}
+/* line 23, ../scss/_custom.scss */
+.vignette-content {
   float: left;
-  width: 100px;
+  width: 65%;
+  padding: 20px;
 }
-/* line 21, ../scss/_custom.scss */
+/* line 32, ../scss/_custom.scss */
+.vignette-view-reveal {
+  float: right;
+  width: 250px;
+  height: 350px;
+  background: aliceblue;
+}
+/* line 39, ../scss/_custom.scss */
 .vignette-image {
   float: left;
   margin-right: 20px;
