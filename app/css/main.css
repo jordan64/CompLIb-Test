@@ -269,17 +269,17 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 145%;
+  width: 148.25%;
   transition: all 0.3s;
 }
 /* line 19, ../scss/_custom.scss */
 .vignette-inner:hover {
-  left: -310px;
+  left: -335px;
 }
 /* line 23, ../scss/_custom.scss */
 .vignette-content {
   float: left;
-  width: 65%;
+  width: 67%;
 }
 /* line 27, ../scss/_custom.scss */
 .vignette-description {
@@ -288,7 +288,7 @@ body {
 /* line 31, ../scss/_custom.scss */
 .vignette-view-reveal {
   float: right;
-  width: 29%;
+  width: 26%;
   height: 321px;
   background: #D6EEF5;
   padding: 20px;
