@@ -21,13 +21,9 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainController'
       })
-      .when('/home', {
-        templateUrl: 'views/home.html',
-        controller: 'HomeController'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutController'
+      .when('/details/:vignetteId', {
+        templateUrl: 'views/details.html',
+        controller: 'DetailsController'
       })
       .otherwise({
         redirectTo: '/'

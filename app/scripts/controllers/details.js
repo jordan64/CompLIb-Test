@@ -1,5 +1,7 @@
 angular.module('compLibApp')
-  .controller('MainController', function($scope) {
+  .controller('DetailsController', function($scope, $routeParams) {
+    $scope.vignetteId = $routeParams.vignetteId;
+
     $scope.vignettes = [
         {
           vignetteId: '0',
@@ -56,4 +58,5 @@ angular.module('compLibApp')
           description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
         }
       ];
+
   });

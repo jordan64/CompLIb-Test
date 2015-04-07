@@ -38,6 +38,12 @@
       height: 321px;
       background: $powder-blue;
       padding: 20px;
+      .confirm {
+        text-decoration: none;
+        margin-top: 20px;
+        display: block;
+        max-width: 100px;
+      }
     }
   }
   &-image {
@@ -67,9 +73,6 @@
     float: left;
     margin-right: 50px;
   }
-}
-.confirm {
-  text-decoration: none;
 }
 
 .main-header {

@@ -90,19 +90,17 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   left: 0;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
   width: 100%;
   z-index: 9999;
 }
 
-/* line 18, ../scss/components/layout/_layout.scss */
+/* line 16, ../scss/components/layout/_layout.scss */
 .vignette-column {
   width: 49%;
   margin-right: 20px;
   float: left;
 }
-/* line 22, ../scss/components/layout/_layout.scss */
+/* line 20, ../scss/components/layout/_layout.scss */
 .vignette-column:last-child {
   margin-right: 0;
 }
@@ -327,44 +325,46 @@ body {
   background: #D6EEF5;
   padding: 20px;
 }
-/* line 43, ../scss/_custom.scss */
+/* line 41, ../scss/_custom.scss */
+.vignette-view-reveal .confirm {
+  text-decoration: none;
+  margin-top: 20px;
+  display: block;
+  max-width: 100px;
+}
+/* line 49, ../scss/_custom.scss */
 .vignette-image {
   float: left;
   margin-right: 20px;
 }
-/* line 47, ../scss/_custom.scss */
+/* line 53, ../scss/_custom.scss */
 .vignette-filter {
   width: 125px;
 }
-/* line 49, ../scss/_custom.scss */
+/* line 55, ../scss/_custom.scss */
 .vignette-filter-label {
   font-weight: 700;
 }
-/* line 52, ../scss/_custom.scss */
+/* line 58, ../scss/_custom.scss */
 .vignette-filter-text {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 60, ../scss/_custom.scss */
+/* line 66, ../scss/_custom.scss */
 .filter-container {
   margin-bottom: 30px;
   float: right;
   width: 50%;
   padding-top: 20px;
 }
-/* line 66, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .filter-term {
   float: left;
   margin-right: 50px;
 }
 
-/* line 71, ../scss/_custom.scss */
-.confirm {
-  text-decoration: none;
-}
-
-/* line 75, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .main-header {
   padding: 20px 0;
   background: rgba(255, 255, 255, 0.9);
