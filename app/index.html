@@ -12,11 +12,17 @@
 </head>
 <body>
 
-	<div class="main-container">
-		<header class="main-header">
+	<header class="main-header">
+		<div class="container">
 			<h1 class="app-title">Canvas</h1>
-		</header>
+			<div class="filter-container">
+		    <label class="filter-term">Enter a term to filter by: <input type="text" class="vignette-filter" ng-model="query"></label>
+		    <p class="vignette-filter-label">Filtered By: <span class="vignette-filter-text">{{query}}</span></p>
+		  </div>
+		</div>
+	</header>
 
+	<div class="container">
 		<div ng-view=""></div>
 	</div>
 

@@ -1,18 +1,22 @@
 
 @include custom-buttons(map-get($palettes, buttons));
 
+.app-title {
+  width: 50%;
+  float: left;
+}
+
 .vignette {
   &-wrapper {
     overflow: hidden;
     position: relative;
     min-height: 300px;
-    max-width: 700px;
     margin-bottom: 20px;
     @include shadow-box();
   }
   &-inner {
     position: absolute;
-    width: 147%;
+    width: 158.25%;
     top: 0;
     left: 0;
     transition: all 0.3s;
@@ -22,15 +26,15 @@
   }
   &-content {
     float: left;
-    width: 67%;
+    width: 65%;
   }
   &-description {
     margin: 20px 0;
   }
   &-view {
     &-reveal {
-      float: right;
-      width: 26%;
+      float: left;
+      width: 30%;
       height: 321px;
       background: $powder-blue;
       padding: 20px;
@@ -55,6 +59,9 @@
 .filter {
   &-container {
     margin-bottom: 30px;
+    float: right;
+    width: 50%;
+    padding-top: 20px;
   }
   &-term {
     float: left;
@@ -63,4 +70,9 @@
 }
 .confirm {
   text-decoration: none;
+}
+
+.main-header {
+  padding: 20px 0;
+  background: transparentize($white, 0.1);
 }
