@@ -317,7 +317,36 @@ body {
 .vignette-description {
   margin: 20px 0;
 }
-/* line 35, ../scss/_custom.scss */
+/* line 34, ../scss/_custom.scss */
+.vignette-details {
+  width: 65%;
+  float: right;
+  padding: 20px;
+  box-shadow: 0px 1px 3px 0px rgba(51, 51, 51, 0.2);
+}
+/* line 38, ../scss/_custom.scss */
+.vignette-details-specs {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+}
+/* line 42, ../scss/_custom.scss */
+.vignette-details-specs .confirm.buttons {
+  text-decoration: none;
+  display: block;
+  margin-top: 30px;
+}
+/* line 46, ../scss/_custom.scss */
+.vignette-details-specs .confirm.buttons:before {
+  content: '';
+}
+/* line 51, ../scss/_custom.scss */
+.vignette-details .rating {
+  font-size: 1rem;
+  font-family: "museo-sans-rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-left: 30px;
+}
+/* line 58, ../scss/_custom.scss */
 .vignette-view-reveal {
   float: left;
   width: 30%;
@@ -325,49 +354,72 @@ body {
   background: #D6EEF5;
   padding: 20px;
 }
-/* line 41, ../scss/_custom.scss */
+/* line 64, ../scss/_custom.scss */
 .vignette-view-reveal .confirm {
   text-decoration: none;
   margin-top: 20px;
   display: block;
   max-width: 100px;
 }
-/* line 49, ../scss/_custom.scss */
+/* line 72, ../scss/_custom.scss */
 .vignette-image {
   float: left;
   margin-right: 20px;
 }
-/* line 53, ../scss/_custom.scss */
+/* line 76, ../scss/_custom.scss */
 .vignette-filter {
   width: 125px;
 }
-/* line 55, ../scss/_custom.scss */
+/* line 78, ../scss/_custom.scss */
 .vignette-filter-label {
   font-weight: 700;
 }
-/* line 58, ../scss/_custom.scss */
+/* line 81, ../scss/_custom.scss */
 .vignette-filter-text {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 66, ../scss/_custom.scss */
+/* line 89, ../scss/_custom.scss */
 .filter-container {
   margin-bottom: 30px;
   float: right;
   width: 50%;
   padding-top: 20px;
 }
-/* line 72, ../scss/_custom.scss */
+/* line 95, ../scss/_custom.scss */
 .filter-term {
   float: left;
   margin-right: 50px;
 }
 
-/* line 78, ../scss/_custom.scss */
+/* line 101, ../scss/_custom.scss */
 .main-header {
   padding: 20px 0;
   background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 106, ../scss/_custom.scss */
+.extended-description {
+  width: 80%;
+}
+
+/* line 110, ../scss/_custom.scss */
+.vignette-title {
+  margin-bottom: 10px;
+}
+
+/* line 114, ../scss/_custom.scss */
+.specs {
+  margin-top: 30px;
+}
+/* line 116, ../scss/_custom.scss */
+.specs-item {
+  padding: 10px 0;
+}
+/* line 119, ../scss/_custom.scss */
+.specs-title {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=main.css.map */

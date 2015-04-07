@@ -1,5 +1,18 @@
-<img src='//placehold.it/300x200/cccccc/FFFFFF.png'/>
 
-<p>view for {{vignetteId}}</p>
+<div class="vignette-details-specs">
+  <img src="{{vignettes[vignetteId].thumb}}" alt="">
+  <ul class="specs">
+    <li class="specs-item"><span class="specs-title">Recommended Application: </span> {{vignettes[vignetteId].specs.application}}</li>
+    <li class="specs-item"><span class="specs-title">Difficulty: </span>{{vignettes[vignetteId].specs.difficulty}}</li>
+    <li class="specs-item"><span class="specs-title">Related Resources: </span>{{vignettes[vignetteId].specs.relatedResources}}</li>
+    <li class="specs-item"><span class="specs-title">Price: </span>{{vignettes[vignetteId].specs.price}}</li>
+    <li class="specs-item"><span class="specs-title">Contributor: </span>{{vignettes[vignetteId].specs.contributor}}</li>
+  </ul>
+  <a href="#" class="confirm buttons">Add to Cart<i class="fa fa-plus"></i></a>
+</div>
 
-<h1>{{vignettes[vignetteId].name}}</h1>
+<div class="vignette-details">
+  <h1 class="vignette-title">{{vignettes[vignetteId].name}} <span class="rating">{{vignettes[vignetteId].rating}}</span></h1>
+
+  <p class="extended-description">{{vignettes[vignetteId].longDesc}}</p>
+</div>
