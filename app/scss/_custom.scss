@@ -120,3 +120,17 @@
     font-weight: 700;
   }
 }
+
+.specs-data-table {
+  display: table;
+  &-row {
+    display: table-row;
+    padding: 10px;
+    &:nth-child(even) {
+      background: palette(grayscale, x-light);
+    }
+  }
+  &-cell {
+    display: table-cell;
+  }
+}
