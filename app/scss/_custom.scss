@@ -12,9 +12,9 @@
   }
   &-inner {
     position: absolute;
+    width: 147%;
     top: 0;
     left: 0;
-    width: 148.25%;
     transition: all 0.3s;
     &:hover {
       left: -335px;
@@ -37,6 +37,25 @@
     }
   }
   &-image {
+    float: left;
+    margin-right: 20px;
+  }
+  &-filter {
+    &-label {
+      font-weight: 700;
+    }
+    &-text {
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+}
+
+.filter {
+  &-container {
+    margin-bottom: 30px;
+  }
+  &-term {
     float: left;
     margin-right: 20px;
   }

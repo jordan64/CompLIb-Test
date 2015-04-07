@@ -2,6 +2,14 @@ section {
 	margin: 80px 0;
 }
 
+input {
+	outline: none;
+	border: none!important;
+	border-bottom: 1px solid #ccc!important;
+	text-align: center;
+	font-size: 1rem;;
+}
+
 body {
 	padding: 30px;
 	font-family: $body-font-family;

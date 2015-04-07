@@ -1,12 +1,12 @@
 
-  <article class="vignette-view" ng-repeat="vignette in vignettes">
+  <article class="vignette-view" ng-repeat="vignette in vignettes | filter:query | orderBy: 'name'">
     <div class="vignette-wrapper">
       <div class="vignette-inner">
         <div class="vignette-content">
-          <img class="vignette-image" src='{{vignette.image}}'/>
+          <img class="vignette-image" ng-src='{{vignette.image}}'/>
         </div>
         <div class="vignette-view-reveal">
-          <h1>{{vignette.name}}</h1>
+          <h3>{{vignette.name}}</h3>
           <p class="vignette-description">{{vignette.description}}</p>
           <button class="confirm buttons"></button>
         </div>

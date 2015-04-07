@@ -7,12 +7,12 @@ angular.module('compLibApp')
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
       {
-        name: 'Finance2',
+        name: 'Finance 2',
         image: '//placehold.it/740x350/cccccc/FFFFFF.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
       {
-        name: 'Finance3',
+        name: 'Finance 3',
         image: '//placehold.it/740x350/cccccc/FFFFFF.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
@@ -27,7 +27,7 @@ angular.module('compLibApp')
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
       {
-        name: 'Business Devlopment',
+        name: 'Business Development',
         image: '//placehold.it/740x350/cccccc/FFFFFF.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
@@ -37,12 +37,12 @@ angular.module('compLibApp')
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
       {
-        name: 'Business Ethics2',
+        name: 'Business Ethics 2',
         image: '//placehold.it/740x350/cccccc/FFFFFF.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
       {
-        name: 'Business Ethics3',
+        name: 'Business Ethics 3',
         image: '//placehold.it/740x350/cccccc/FFFFFF.png',
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
       },
