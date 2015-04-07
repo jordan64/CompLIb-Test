@@ -70,14 +70,16 @@ table {
 /* line 43, ../scss/components/utilities/_placeholders.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "jubilat", "Rockwell", serif;
+  font-weight: 300;
 }
 
 /* line 2, ../scss/components/layout/_layout.scss */
 .main-container {
   max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* line 6, ../scss/components/layout/_layout.scss */
+/* line 7, ../scss/components/layout/_layout.scss */
 .main-nav {
   float: left;
   width: 30%;
@@ -86,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
 }
 
-/* line 14, ../scss/components/layout/_layout.scss */
+/* line 15, ../scss/components/layout/_layout.scss */
 .vignette-column {
   width: 60%;
   float: right;
@@ -118,10 +120,9 @@ h1 {
   font-size: 2.4414375rem;
   line-height: 42px;
   line-height: 2.625rem;
-  font-weight: 300;
 }
 
-/* line 23, ../scss/components/base/_base.scss */
+/* line 22, ../scss/components/base/_base.scss */
 h2 {
   font-size: 31px;
   font-size: 1.953125rem;
@@ -129,7 +130,7 @@ h2 {
   line-height: 2.25rem;
 }
 
-/* line 27, ../scss/components/base/_base.scss */
+/* line 26, ../scss/components/base/_base.scss */
 h3 {
   font-size: 25px;
   font-size: 1.5625rem;
@@ -137,7 +138,7 @@ h3 {
   line-height: 1.875rem;
 }
 
-/* line 31, ../scss/components/base/_base.scss */
+/* line 30, ../scss/components/base/_base.scss */
 h4 {
   font-size: 20px;
   font-size: 1.25rem;
@@ -145,7 +146,7 @@ h4 {
   line-height: 1.5rem;
 }
 
-/* line 35, ../scss/components/base/_base.scss */
+/* line 34, ../scss/components/base/_base.scss */
 h5 {
   font-size: 13px;
   font-size: 0.8rem;
@@ -153,7 +154,7 @@ h5 {
   line-height: 1.125rem;
 }
 
-/* line 39, ../scss/components/base/_base.scss */
+/* line 38, ../scss/components/base/_base.scss */
 h6 {
   font-size: 10px;
   font-size: 0.64rem;
@@ -161,7 +162,7 @@ h6 {
   line-height: 0.75rem;
 }
 
-/* line 44, ../scss/components/base/_base.scss */
+/* line 43, ../scss/components/base/_base.scss */
 body {
   font-size: 16px;
   font-size: 1rem;
@@ -307,24 +308,33 @@ body {
   float: left;
   margin-right: 20px;
 }
-/* line 44, ../scss/_custom.scss */
+/* line 43, ../scss/_custom.scss */
+.vignette-filter {
+  width: 125px;
+}
+/* line 45, ../scss/_custom.scss */
 .vignette-filter-label {
   font-weight: 700;
 }
-/* line 47, ../scss/_custom.scss */
+/* line 48, ../scss/_custom.scss */
 .vignette-filter-text {
   font-style: italic;
   font-weight: 300;
 }
 
-/* line 55, ../scss/_custom.scss */
+/* line 56, ../scss/_custom.scss */
 .filter-container {
   margin-bottom: 30px;
 }
-/* line 58, ../scss/_custom.scss */
+/* line 59, ../scss/_custom.scss */
 .filter-term {
   float: left;
-  margin-right: 20px;
+  margin-right: 50px;
+}
+
+/* line 64, ../scss/_custom.scss */
+.confirm {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
